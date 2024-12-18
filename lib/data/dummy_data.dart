@@ -120,9 +120,9 @@ var dummyMeals = [
     isVegetarian: false,
     isLactoseFree: false,
   ),
-  Meal(
+  const Meal(
     id: 'm3',
-    categories: const [
+    categories: [
       'c2',
       'c3',
     ],
@@ -132,7 +132,7 @@ var dummyMeals = [
     imageUrl:
         'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
     duration: 45,
-    ingredients: const [
+    ingredients: [
       '300g Cattle Hack',
       '1 Tomato',
       '1 Cucumber',
@@ -140,7 +140,7 @@ var dummyMeals = [
       'Ketchup',
       '2 Burger Buns'
     ],
-    steps: const [
+    steps: [
       'Form 2 patties',
       'Fry the patties for c. 4 minutes on each side',
       'Quickly fry the buns for c. 1 minute on each side',
