@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-import 'package:meal/categories.dart';
+import 'package:meal/screens/categories.dart';
 import 'package:meal/data/dummy_data.dart';
 import 'package:meal/screens/meals.dart';
 
